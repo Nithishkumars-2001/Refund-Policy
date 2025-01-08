@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.faq-section{
+    padding: 30px;
+}
+
+.faq-section .refund-heading {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+    background-image: url(refund-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.faq-section h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-card {
+    margin-bottom: 20px;
+}
+
+.faq-card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.faq-card-body {
+    background-color: #f1f1f1;
+}
+
+.faq-card-body p {
+    margin-bottom: 0;
+}
+
+/* Privacy Policy */
+.privacy-policy{
+    padding: 10px 0 20px 0;
+}
+
+.privacy-policy-content{
+    padding-top: 20px;
+}
+
+.privacy-policy-content p{
+    padding-top: 10px;
+    text-align: justify;
+}
+
+/* Email */
+
+.drop-email{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: antiquewhite;
+}
+
+/* Footer  */
+
+.company-details {
+    background-color: rgb(186, 220, 250);
+}
+
+.company-details h3 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.company-details p {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-box {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-box input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    width: 350px;
+}
+
+.email-box input::placeholder {
+    padding-left: 20px;
+    text-shadow: none;
+}
+
+.email-box button {
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(123, 173, 217);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.company-text h4 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.company-text h4::first-letter {
+    font-size: 30px;
+}
+
+.company-text h5 {
+    font-weight: 500;
+}
+
+.details {
+    column-gap: 40px;
+}
+
+/* Social icon */
+
+.social-icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.social-icon i{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.social-icon #inkedin, .social-icon #facebook,
+.social-icon #twitter, .social-icon #threds,
+.social-icon #instagram{
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    padding: 7px 14px;
+    color: #fff;
+    background-color: rgb(0, 106, 255);
+    border-radius: 50%;
+}
